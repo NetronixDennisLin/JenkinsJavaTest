@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="LAPTOP-QNNAN73M" name="test.testing.LoginTesting" skipped="0" tests="1" time="4.477" timestamp="2020-04-24T02:29:17">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="LAPTOP-QNNAN73M" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="env.DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes" />
+    <property name="env.COMPUTERNAME" value="LAPTOP-QNNAN73M" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\apache-ant-1.10.7" />
+    <property name="java.runtime.version" value="1.8.0_151-b12" />
+    <property name="env.HOMEPATH" value="\Users\Dennis" />
+    <property name="user.name" value="Dennis" />
+    <property name="user.language" value="zh" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="LoginTest" />
+    <property name="java.version" value="1.8.0_151" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 10, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:\Users\Dennis\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="env.classpath" value="C:\apache-ant-1.10.7\lib" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed" />
+    <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.8.0_151\bin\java.exe" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="MS950" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="../../eclipse/" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="TW" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre" />
+    <property name="env.PSModulePath" value="C:\Users\Dennis\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\PowerShell\Modules\" />
+    <property name="env.APPDATA" value="C:\Users\Dennis\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="C:\gitData\JenkinsJavaTest\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="env._USE_CLASSPATH" value="yes" />
+    <property name="env.=::" value="::\" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.151-b12" />
+    <property name="env.USERPROFILE" value="C:\Users\Dennis" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\apache-ant-1.10.7\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_151" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\Dennis\AppData\Local\Temp" />
+    <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.stdout.encoding" value="ms950" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\Dennis" />
+    <property name="target" value="1.8" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_151\bin\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Java;C:\Gradle\gradle-6.3\bin;C:\curl-7.69.1-win64-mingw\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\amd64\;C:\apache-ant-1.10.7\bin;C:\Users\Dennis\AppData\Local\Microsoft\WindowsApps;C:\Users\Dennis\.dotnet\tools;." />
+    <property name="env.NUMBER_OF_PROCESSORS" value="8" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.7 compiled on September 1 2019" />
+    <property name="java.class.path" value="C:\gitData\JenkinsJavaTest\build\classes;C:\apache-tomcat-6.0.41\lib\annotations-api.jar;C:\apache-tomcat-6.0.41\lib\catalina-ant.jar;C:\apache-tomcat-6.0.41\lib\catalina-ha.jar;C:\apache-tomcat-6.0.41\lib\catalina-tribes.jar;C:\apache-tomcat-6.0.41\lib\catalina.jar;C:\apache-tomcat-6.0.41\lib\ecj-4.3.1.jar;C:\apache-tomcat-6.0.41\lib\el-api.jar;C:\apache-tomcat-6.0.41\lib\jasper-el.jar;C:\apache-tomcat-6.0.41\lib\jasper.jar;C:\apache-tomcat-6.0.41\lib\jsp-api.jar;C:\apache-tomcat-6.0.41\lib\servlet-api.jar;C:\apache-tomcat-6.0.41\lib\tomcat-coyote.jar;C:\apache-tomcat-6.0.41\lib\tomcat-dbcp.jar;C:\apache-tomcat-6.0.41\lib\tomcat-i18n-es.jar;C:\apache-tomcat-6.0.41\lib\tomcat-i18n-fr.jar;C:\apache-tomcat-6.0.41\lib\tomcat-i18n-ja.jar;C:\gitData\JenkinsJavaTest\WebContent\WEB-INF\lib\hamcrest-core-1.3.jar;C:\gitData\JenkinsJavaTest\WebContent\WEB-INF\lib\junit-4.13.jar;C:\gitData\JenkinsJavaTest\WebContent\WEB-INF\lib\selenium-server-standalone-3.141.59.jar;C:\apache-ant-1.10.7\lib\ant-launcher.jar;C:\apache-ant-1.10.7\lib\ant.jar;C:\apache-ant-1.10.7\lib\ant-junit.jar;C:\apache-ant-1.10.7\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.testing.LoginTesting skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\gitData\JenkinsJavaTest\junit\TEST-test.testing.LoginTesting.xml crashfile=C:\gitData\JenkinsJavaTest\junitvmwatcher8612214401432543007.properties propsfile=C:\gitData\JenkinsJavaTest\junit6254204421143226704.properties" />
+    <property name="ant.file.LoginTest" value="C:\gitData\JenkinsJavaTest\build.xml" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.windir" value="C:\Windows" />
+    <property name="env.LOGONSERVER" value="\\LAPTOP-QNNAN73M" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.OneDrive" value="C:\Users\Dennis\OneDrive" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="C:\apache-ant-1.10.7" />
+    <property name="java.io.tmpdir" value="C:\Users\Dennis\AppData\Local\Temp\" />
+    <property name="env.PROCESSOR_REVISION" value="8e0a" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\Windows" />
+    <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.ANT_CMD_LINE_ARGS" value=" &quot;LoginTest (1)&quot;" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\gitData\JenkinsJavaTest" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\Dennis\AppData\Local" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL" />
+    <property name="env.Path" value="C:\Program Files\Java\jdk1.8.0_151\bin\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Java;C:\Gradle\gradle-6.3\bin;C:\curl-7.69.1-win64-mingw\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\amd64\;C:\apache-ant-1.10.7\bin;C:\Users\Dennis\AppData\Local\Microsoft\WindowsApps;C:\Users\Dennis\.dotnet\tools" />
+    <property name="env.JRE_HOME" value="C:\Program Files\Java\jre1.8.0_151" />
+    <property name="basedir" value="C:\gitData\JenkinsJavaTest" />
+    <property name="ant.file.type.LoginTest" value="file" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\apache-ant-1.10.7\lib\ant.jar" />
+    <property name="env.USERNAME" value="Dennis" />
+    <property name="source" value="1.8" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="MS950" />
+    <property name="sun.stderr.encoding" value="ms950" />
+    <property name="env.USERDOMAIN" value="LAPTOP-QNNAN73M" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="env.=C:" value="C:\gitData\JenkinsJavaTest" />
+    <property name="ant.project.invoked-targets" value="LoginTest (1)" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="test.testing.LoginTesting" name="test" time="4.437">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;name&quot;}&#xa;  (Session info: chrome=81.0.4044.122)&#xa;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 0 milliseconds&#xa;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;&#xa;System info: host: &apos;LAPTOP-QNNAN73M&apos;, ip: &apos;139.223.26.153&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\Dennis\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 81.0.4044.122, webStorageEnabled: true}&#xa;Session ID: cb4cb3a3496386412426ce0529afbeec&#xa;*** Element info: {Using=name, value=name}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;name&quot;}
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;LAPTOP-QNNAN73M&apos;, ip: &apos;139.223.26.153&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\Dennis\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 81.0.4044.122, webStorageEnabled: true}
+Session ID: cb4cb3a3496386412426ce0529afbeec
+*** Element info: {Using=name, value=name}
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at test.testing.LoginTesting.test(LoginTesting.java:33)
+</error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 23288
+Only local connections are allowed.
+四月 24, 2020 10:29:19 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+資訊: Detected dialect: OSS
+]]></system-err>
+</testsuite>

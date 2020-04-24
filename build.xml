@@ -79,7 +79,7 @@
         <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
         <antcall target="build"/>
     </target>
-    <target name="LoginTest (1)">
+    <target name="LoginTest01">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
@@ -112,6 +112,6 @@
 				<include name="**/*.class"/>
 			</fileset>
 		</copy>
-		<war destfile="C:\apache-tomcat-6.0.41\webapps\UploadServlet30.war" basedir="WebContent" needxmlfile="false"></war>
+		<war destfile="C:\apache-tomcat-6.0.41\webapps\LoginTest.war" basedir="WebContent" needxmlfile="false"></war>
 	</target>
 </project>
