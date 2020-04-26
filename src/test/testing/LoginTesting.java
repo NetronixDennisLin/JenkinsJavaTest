@@ -16,7 +16,7 @@ public class LoginTesting {
 	
 	@Before
 	public void setUp() throws Exception {
-		System.setProperty("webdriver.chrome.driver","C:\\workspace\\LoginTest\\WebContent\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Program Files (x86)\\Jenkins\\workspace\\Java\\WebContent\\chromedriver.exe");
 	    driver = new ChromeDriver();
 	    js = (JavascriptExecutor) driver;
 	}
