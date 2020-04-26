@@ -112,6 +112,6 @@
 				<include name="**/*.class"/>
 			</fileset>
 		</copy>
-		<war destfile="C:\apache-tomcat-6.0.41\webapps\LoginTest.war" basedir="WebContent" needxmlfile="false"></war>
+		<war destfile="C:\apache-tomcat-8.5.54\webapps\LoginTest.war" basedir="WebContent" needxmlfile="false"></war>
 	</target>
 </project>
